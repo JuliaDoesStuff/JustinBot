@@ -16,7 +16,7 @@ public class InviteCommand implements JBCommand {
 			.withContent("Here are the links!")
 			.withComponents(ActionRow.of(
 				Button.link("https://discord.com/api/oauth2/authorize?client_id=842832651324227594&permissions=8&scope=bot%20applications.commands", "Invite me!"),
-				Button.link("https://discord.gg/KmquSPTT8D", "Join the Discord server!")
+				Button.link("https://discord.gg/KjX93dcYEM", "Join the Discord server!")
 			))
 		);
 	}
