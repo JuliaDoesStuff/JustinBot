@@ -1,0 +1,24 @@
+plugins {
+    id "application"
+	id "eclipse"
+	id "com.github.johnrengelman.shadow" version "7.1.0"
+}
+
+version "1.0.0"
+
+sourceCompatibility = JavaVersion.VERSION_17
+
+repositories {
+    mavenCentral()
+}
+
+shadowJar {
+	archiveClassifier = "";
+}
+
+mainClassName = "com.bwbjustin.justinbot.JustinBot"
+
+dependencies {
+    implementation "com.discord4j:discord4j-core:3.2.0"
+	implementation "org.xerial:sqlite-jdbc:3.36.0.3"
+}

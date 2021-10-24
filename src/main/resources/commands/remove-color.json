@@ -1,0 +1,12 @@
+{
+	"name": "remove-color",
+	"description": "Removes a color role.",
+	"options": [
+		{
+			"type": 3,
+			"name": "name",
+			"description": "The name of the color role to remove.",
+			"required": true
+		}
+	]
+}

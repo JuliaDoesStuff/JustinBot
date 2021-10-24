@@ -1,0 +1,12 @@
+{
+	"name": "get-color",
+	"description": "Gets info on a color role.",
+	"options": [
+		{
+			"type": 3,
+			"name": "name",
+			"description": "The name of the color role to get info on.",
+			"required": true
+		}
+	]
+}
